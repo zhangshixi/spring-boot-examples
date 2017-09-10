@@ -19,6 +19,7 @@
     <description>Demo parent project for Spring Boot</description>
 
     <modules>
+        <module>spring-boot-admin-server</module>
         <module>spring-boot-hello-world</module>
     </modules>
 
@@ -34,7 +35,6 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
                 <version>1.5.6.RELEASE</version>
-                <scope>import</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
